@@ -1,0 +1,36 @@
+{
+  "name": "ts-backend",
+  "version": "1.0.0",
+  "description": "Typescript Backend",
+  "main": "index.js",
+  "scripts": {
+    "ts:node": "ts-node-dev --files src/index.ts",
+    "dev": "nodemon",
+    "build": "tsc",
+    "clean": "rm -rf build",
+    "start": "node build/src"
+  },
+  "keywords": [],
+  "author": "rippernochart",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chalk": "^3.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.9",
+    "password-validator": "^5.1.1",
+    "ts-dotenv": "^0.8.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.11",
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/morgan": "^1.9.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  }
+}
