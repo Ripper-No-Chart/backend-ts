@@ -1,9 +1,9 @@
-# Typescript Backend
+# Typescript Full Backend
 ## _Basic typescript backend_
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-A basic backend, with user crud, validation by token and hashing by bcrypt
+A full backend, with user crud, validation by token and hashing by bcrypt
 
 - Typescript
 - JWT
